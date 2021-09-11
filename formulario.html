@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color:#ffcccc;
+            }
+            h1{
+                margin-left:470px;
+                color:white;
+            }
+            table{
+                margin-left:380px;
+                background-color:#ffcccc;
+                border-style:solid;
+                border-color:white;
+            }
+            tr,td{
+                color:white;
+                border-style:solid;
+                border-color:white;
+                background-color:#ffcccc;
+            }
+            input{
+                color:#ffcccc;
+            }
+            #boton{
+                background-color:white;
+                color:#ffcccc;
+            }
+        </style>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario de ingreso</h1>
+        <form action="comprueba_login.php" method="post">
+            <table>
+                <tr>
+                    <td>Nombre del usuario</td>
+                    <td>DNI</td>
+                    <td>Contraseña</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nombreUsuario"></td>
+                    <td><input type="text" name="dni"></td>
+                    <td><input type="password" name="contrasegna"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="boton"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
